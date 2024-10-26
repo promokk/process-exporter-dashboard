@@ -4,7 +4,7 @@
 и [Node-exporter](https://github.com/prometheus/node_exporter).  
 Node-exporter необходим для панелей CPU.
 
-Дашборд загружен в [Grafana Labs](!!!).
+Дашборд загружен в [Grafana Labs](https://grafana.com/grafana/dashboards/22161-process-exporter-dashboard/).
 
 ---
 # Оглавление
@@ -13,7 +13,7 @@ Node-exporter необходим для панелей CPU.
 
 ---
 ## Описание дашборда <a id="dashboardDescription"></a>
-Дашборд позволяет отследивать процессы в Linux.  
+Дашборд позволяет отслеживать процессы в Linux.  
 Список метрик:
 * CPU % / CPU (millicore) - утилизация CPU процессом.  
 * Resident Memory % / Resident Memory - фактическое использование памяти процессом.
