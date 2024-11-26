@@ -17,24 +17,24 @@ Node-exporter необходим для панелей CPU.
 Список метрик:
 * CPU % / CPU (millicore) - утилизация CPU процессом.  
 * Resident Memory % / Resident Memory - фактическое использование памяти процессом.
-  ![Summary - гифка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/CPU_Memory.png)
+  ![Summary - картинка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/CPU_Memory.png)
 * Virtual Memory - общий объем памяти, который может потребоваться процессу.  
 * Number Threads - количество потоков.  
 * Voluntary Context Switches - добровольное переключение контекста.  
   Происходит, когда поток выполняет запись в IO или запрашивает ресурс, который недоступен.  
 * Nonvoluntary Context Switches - непроизвольное переключение контекста.  
   Происходит, когда поток превышает временной интервал, назначенный планировщиком.
-  ![Summary - гифка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/Context.png)
+  ![Summary - картинка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/Context.png)
 * Group File Descriptors - количество открытых файловых дескрипторов для группы.  
 * Total File Descriptors - 
   количество открытых файловых дескрипторов / максимальное количество открытых файловых дескрипторов.  
 * Read Bytes - количество байтов, прочитанных группой.  
 * Write Bytes - количество байтов, записанных группой.
-  ![Summary - гифка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/File_Descriptors.png)
+  ![Summary - картинка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/File_Descriptors.png)
 * Minor Page Faults - незначительные ошибки страницы памяти.  
 * Major Page Faults - основные ошибки страницы памяти.  
 * Number Processes - количество процессов в группе.
-  ![Summary - гифка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/Page_Faults.png)
+  ![Summary - картинка](https://raw.githubusercontent.com/promokk/process-exporter-dashboard/main/data/Page_Faults.png)
 
 ---
 Настройка Prometheus, Process-exporter и Node-exporter <a id="settings"></a>
