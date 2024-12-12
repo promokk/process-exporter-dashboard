@@ -4,7 +4,7 @@
 и [Node-exporter](https://github.com/prometheus/node_exporter).  
 Node-exporter необходим для панелей CPU.
 
-Дашборд загружен в [Grafana Labs](https://grafana.com/grafana/dashboards/22161-process-exporter-dashboard/).
+Дашборд доступен в [Grafana Labs](https://grafana.com/grafana/dashboards/22161-process-exporter-dashboard/).
 
 ---
 # Оглавление
